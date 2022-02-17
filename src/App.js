@@ -1,11 +1,10 @@
-import { Provider } from "react-redux";
-import store from "./store";
+import Navigation from "./Navigation";
 
 function App() {
   return (
-    <Provider store={store}>
-      <h1>Working</h1>
-    </Provider>
+    <div className="bg-gray-200 h-screen">
+      <Navigation />
+    </div>
   );
 }
 
